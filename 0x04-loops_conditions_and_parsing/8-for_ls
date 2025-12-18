@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-# This script lists files without the first part before dash
-for file in *
-do
-if [[ "$file" != .* ]]; then
-printf "%s\n" "${file#*-}"
-fi
-done
