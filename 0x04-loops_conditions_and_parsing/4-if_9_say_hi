@@ -3,10 +3,10 @@
 i=1
 while [ $i -le 10 ]
 do
-    printf "Best School\n"
-    if [ $i -eq 9 ]
-    then
-        printf "Hi\n"
-    fi
-    i=$((i + 1))
+printf "Best School\n"
+if [ $i -eq 9 ]
+then
+printf "Hi\n"
+fi
+i=$((i + 1))
 done
