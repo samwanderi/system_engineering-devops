@@ -3,6 +3,6 @@
 i=1
 until [ $i -gt 10 ]
 do
-    printf "Best School\n"
-    i=$((i + 1))
+printf "Best School\n"
+i=$((i + 1))
 done
